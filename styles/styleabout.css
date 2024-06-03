@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden; 
+}
+
+header{
+    background-color: black;
+    padding-top:  20px;
+    padding-bottom: 20px;
+}
+
+header .Logo {
+    margin-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+header .Home {
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    list-style: none;
+}
+
+header .Home ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+}
+
+header .Home ul li {
+    margin-right: 40px; 
+}
+
+header .Home ul li:last-child {
+    margin-right: 0; 
+}
+
+header .Home ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+header .Home ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+    opacity: 60%;
+}
+
+.firsts{
+    margin: 50px;
+    padding: 40px 40px 80px 40px;
+}
+
+.firsts .TeamTitle {
+    margin-bottom: 20px; 
+    margin-left: 750px;
+}
+
+.firsts .TeamTitle h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(132, 128, 128, 0.9);   
+}
+
+.firsts .StaffPics {
+    margin-top: 50px;
+    display: flex;
+    gap:170px;
+}
+
+.firsts .StaffPics figure {
+    text-align: center;
+}
+
+.firsts .StaffPics img { 
+    border-radius: 30%;
+    width: 300px;
+}
+
+.firsts .StaffPics figcaption {
+    color: black;
+    margin-top: 10px;
+}
+
+.seconds {
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.seconds .VisionTitle {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.seconds .VisionTitle h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(132, 128, 128, 0.9);  
+}
+
+.seconds .message {
+    margin-top: 50px; 
+    margin-left: 20px;
+}
+
+.seconds .message p {
+    color: black;
+    width: 600px;
+    height: 300px;
+    margin-left:80px;
+    font-size: 20px;
+    font-style:oblique;
+}
+
+.seconds figure {
+    margin-left: 1100px;
+    margin-top: -320px;
+}
+
+.seconds figure img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.thirds {
+    margin: 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.thirds .ChooseTitle {
+    margin-left: 60px;
+    margin-top: 150px;
+}
+
+.thirds .ChooseTitle h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(132, 128, 128, 0.9);  
+}
+
+.thirds .message2 {
+    margin-top: 50px; 
+    margin-left: 20px;
+}
+
+.thirds .message2 p {
+    color: black;
+    width: 600px;
+    height: 300px;
+    margin-left:80px;
+    font-size: 20px;
+    font-style:oblique;
+}
+
+.thirds figure {
+    margin-left: 1100px;
+    margin-top: -350px;
+}
+
+.thirds figure img {
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    max-width: 100%;
+}

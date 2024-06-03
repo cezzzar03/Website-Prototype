@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/white-abstract-background-backdrop-for-presentation-design-for-website-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden; 
+}
+
+header {
+    background-color: black;
+    padding-top:  20px;
+    padding-bottom: 20px;
+}
+
+header .Logo {
+    margin-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+header .Home {
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+    list-style: none;
+}
+
+header .Home ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+}
+
+header .Home ul li {
+    margin-right: 40px; 
+}
+
+header .Home ul li:last-child {
+    margin-right: 0; 
+}
+
+header .Home ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+header .Home ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.7); 
+    opacity: 60%;
+}
+
+.coin-section {
+    margin: 50px;
+    padding: 40px;
+}
+
+.coin-title {
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.coin-title h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.4s ease-out;
+    text-shadow: 0 0 10px rgba(132, 128, 128, 0.9);   
+}
+
+.coin-info {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.coin-info img { 
+    border-radius: 30%;
+    width: 400px;
+    margin-top: 20px; 
+    height: 250px;
+}
+
+.coin-info p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+    margin-top: 20px; 
+}
